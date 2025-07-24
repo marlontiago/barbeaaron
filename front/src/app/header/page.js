@@ -11,7 +11,7 @@ const saira = Saira({
 export default function Header(){
 
     return(
-        <div className="fixed top-0 left-0 w-full z-50 bg-black h-20 text-white flex justify-between items-center px-4 shadow">
+        <div className="fixed top-0 left-0 w-full z-50 bg-black h-20 text-white flex justify-between items-center px-4 shadow border-b-2">
                 <Link href='/home'><Scissors className="w-8 h-8" /></Link>
 
             <div>
